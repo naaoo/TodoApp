@@ -1,0 +1,15 @@
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\TodoLogic.dll
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\TodoLogic.pdb
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\TodoData.dll
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\EntityFramework.dll
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\TodoData.pdb
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\TodoData.dll.config
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\EntityFramework.xml
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\obj\Debug\TodoLogic.csprojAssemblyReference.cache
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\obj\Debug\TodoLogic.csproj.CoreCompileInputs.cache
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\obj\Debug\TodoLogic.csproj.CopyComplete
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\obj\Debug\TodoLogic.dll
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\obj\Debug\TodoLogic.pdb
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\TodoLogic.dll.config
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DCV\C#-Repos\TodoApp\TodoLogic\bin\Debug\EntityFramework.SqlServer.xml
