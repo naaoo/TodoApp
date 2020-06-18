@@ -24,9 +24,9 @@ namespace TodoData
         public override string ToString()
         {
             string todoString = "";
-            if (done && date_done != null)
+            if (done)
             {
-                todoString = text + " (" + date_done.ToString() + ")";
+                todoString = text + " (" + String.Format("{0:dd/MM/yyyy HH:mm}", date_done) + ")";
             }
             else
             {
@@ -36,7 +36,7 @@ namespace TodoData
                 }
                 else
                 {
-                    todoString = text + " (" + date_due.ToString() + ")";
+                    todoString = text + " (" + String.Format("{0:dd/MM/yyyy HH:mm}", date_due) + ")";
                 }
             }
             return todoString;

@@ -15,14 +15,40 @@ namespace TodoLogic
         {
             if (!done)
             {
-                return todoEnt.todos.Where(x => x.done == false).ToList();
+                List<Todo> list = todoEnt.todos.OrderBy(x => x.date_due).Where(x => x.done == false).ToList();
+                list = ShiftList(list);
+                return list;
             }
             else
             {
-                return todoEnt.todos.Where(x => x.done == true).ToList();
+                List<Todo> list = todoEnt.todos.OrderBy(x => x.date_done).Where(x => x.done == true).ToList();
+                list = ShiftList(list);
+                return list;
             }
         }
-    }
 
-    
+        public bool FinishTodo(Todo todo)
+        {
+            todoEnt.todos.Where(x => x.id == todo.id).FirstOrDefault().done = true;
+            DateTime currentTime = DateTime.Now;
+            todoEnt.todos.Where(x => x.id == todo.id).FirstOrDefault().date_done = currentTime;
+            todoEnt.SaveChanges();
+            return true;
+        }
+
+        private List<Todo> ShiftList(List<Todo> list)
+        {
+            var tempList = new List<Todo>();
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].date_due == null)
+                {
+                    tempList.Add(list[i]);
+                    list.RemoveAt(i);
+                }
+            }
+            list.AddRange(tempList);
+            return list;
+        }
+    }
 }

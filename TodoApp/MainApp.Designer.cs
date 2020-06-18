@@ -30,11 +30,10 @@
         {
             this.lblActiveTasks = new System.Windows.Forms.Label();
             this.lblDoneTasks = new System.Windows.Forms.Label();
-            this.btnDone = new System.Windows.Forms.Button();
-            this.CBDone = new System.Windows.Forms.CheckBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.LBoxActive = new System.Windows.Forms.ListBox();
             this.LBoxDone = new System.Windows.Forms.ListBox();
+            this.CBDone = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblActiveTasks
@@ -57,31 +56,10 @@
             this.lblDoneTasks.TabIndex = 3;
             this.lblDoneTasks.Text = "Finished Tasks";
             // 
-            // btnDone
-            // 
-            this.btnDone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDone.Location = new System.Drawing.Point(234, 356);
-            this.btnDone.Name = "btnDone";
-            this.btnDone.Size = new System.Drawing.Size(87, 35);
-            this.btnDone.TabIndex = 4;
-            this.btnDone.Text = "Done";
-            this.btnDone.UseVisualStyleBackColor = true;
-            // 
-            // CBDone
-            // 
-            this.CBDone.AutoSize = true;
-            this.CBDone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CBDone.Location = new System.Drawing.Point(63, 361);
-            this.CBDone.Name = "CBDone";
-            this.CBDone.Size = new System.Drawing.Size(132, 24);
-            this.CBDone.TabIndex = 5;
-            this.CBDone.Text = "mark as done";
-            this.CBDone.UseVisualStyleBackColor = true;
-            // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(208, 747);
+            this.btnAdd.Location = new System.Drawing.Point(209, 727);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(186, 50);
             this.btnAdd.TabIndex = 6;
@@ -95,7 +73,7 @@
             this.LBoxActive.ItemHeight = 20;
             this.LBoxActive.Location = new System.Drawing.Point(37, 85);
             this.LBoxActive.Name = "LBoxActive";
-            this.LBoxActive.Size = new System.Drawing.Size(560, 324);
+            this.LBoxActive.Size = new System.Drawing.Size(560, 244);
             this.LBoxActive.TabIndex = 7;
             // 
             // LBoxDone
@@ -105,19 +83,30 @@
             this.LBoxDone.ItemHeight = 20;
             this.LBoxDone.Location = new System.Drawing.Point(37, 490);
             this.LBoxDone.Name = "LBoxDone";
-            this.LBoxDone.Size = new System.Drawing.Size(560, 224);
+            this.LBoxDone.Size = new System.Drawing.Size(560, 184);
             this.LBoxDone.TabIndex = 8;
+            // 
+            // CBDone
+            // 
+            this.CBDone.AutoSize = true;
+            this.CBDone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBDone.Location = new System.Drawing.Point(37, 353);
+            this.CBDone.Name = "CBDone";
+            this.CBDone.Size = new System.Drawing.Size(132, 24);
+            this.CBDone.TabIndex = 5;
+            this.CBDone.Text = "mark as done";
+            this.CBDone.UseVisualStyleBackColor = true;
+            this.CBDone.Click += new System.EventHandler(this.CBDone_Click);
             // 
             // MainApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 839);
+            this.ClientSize = new System.Drawing.Size(632, 808);
             this.Controls.Add(this.LBoxDone);
             this.Controls.Add(this.LBoxActive);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.CBDone);
-            this.Controls.Add(this.btnDone);
             this.Controls.Add(this.lblDoneTasks);
             this.Controls.Add(this.lblActiveTasks);
             this.Name = "MainApp";
@@ -130,11 +119,10 @@
         #endregion
         private System.Windows.Forms.Label lblActiveTasks;
         private System.Windows.Forms.Label lblDoneTasks;
-        private System.Windows.Forms.Button btnDone;
-        private System.Windows.Forms.CheckBox CBDone;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.ListBox LBoxActive;
         private System.Windows.Forms.ListBox LBoxDone;
+        private System.Windows.Forms.CheckBox CBDone;
     }
 }
 

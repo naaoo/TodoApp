@@ -38,8 +38,19 @@ namespace TodoApp
 
         private void FillBoxes()
         {
+            LBoxActive.DataSource = controller.GetTodoList(false);
+            LBoxDone.DataSource = controller.GetTodoList(true);
+        }
 
-            LBoxActive.DataSource = controller.todoEnt.todos.ToList();
+        private void CBDone_Click(object sender, EventArgs e)
+        {
+            Todo todo = LBoxActive.SelectedItem as Todo;
+            bool finished = controller.FinishTodo(todo);
+            if (finished)
+            {
+                FillBoxes();
+                CBDone.Checked = false;
+            }
         }
     }
 }
