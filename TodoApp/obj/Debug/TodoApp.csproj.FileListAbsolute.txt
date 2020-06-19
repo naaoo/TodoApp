@@ -22,3 +22,6 @@ C:\Users\DCV\C#-Repos\TodoApp\TodoApp\obj\Debug\TodoApp.exe
 C:\Users\DCV\C#-Repos\TodoApp\TodoApp\obj\Debug\TodoApp.pdb
 C:\Users\DCV\C#-Repos\TodoApp\TodoApp\obj\Debug\TodoApp.MainApp.resources
 C:\Users\DCV\C#-Repos\TodoApp\TodoApp\bin\Debug\TodoLogic.dll.config
+C:\Users\DCV\C#-Repos\ToDoApp\TodoApp\bin\Debug\CloseTodos.exe
+C:\Users\DCV\C#-Repos\ToDoApp\TodoApp\bin\Debug\CloseTodos.pdb
+C:\Users\DCV\C#-Repos\ToDoApp\TodoApp\bin\Debug\CloseTodos.exe.config

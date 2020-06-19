@@ -16,3 +16,6 @@ C:\Users\DCV\C#-Repos\TodoApp\TodoAppAdd\bin\Debug\TodoLogic.dll.config
 C:\Users\DCV\C#-Repos\TodoApp\TodoAppAdd\bin\Debug\TodoData.pdb
 C:\Users\DCV\C#-Repos\TodoApp\TodoAppAdd\bin\Debug\TodoData.dll.config
 C:\Users\DCV\C#-Repos\TodoApp\TodoAppAdd\bin\Debug\EntityFramework.xml
+C:\Users\DCV\C#-Repos\ToDoApp\TodoAppAdd\obj\Debug\TodoAppAdd.TodoAdd.resources
+C:\Users\DCV\C#-Repos\ToDoApp\TodoAppAdd\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DCV\C#-Repos\ToDoApp\TodoAppAdd\bin\Debug\EntityFramework.SqlServer.xml

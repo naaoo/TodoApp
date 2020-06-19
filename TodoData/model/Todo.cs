@@ -26,7 +26,7 @@ namespace TodoData
             string todoString = "";
             if (done)
             {
-                todoString = text + " (" + String.Format("{0:dd/MM/yyyy HH:mm}", date_done) + ")";
+                todoString = text + "  (done: " + String.Format("{0:dd/MM/yyyy HH:mm}", date_done) + ")";
             }
             else
             {
@@ -36,7 +36,7 @@ namespace TodoData
                 }
                 else
                 {
-                    todoString = text + " (" + String.Format("{0:dd/MM/yyyy HH:mm}", date_due) + ")";
+                    todoString = text + "   --   (" + String.Format("{0:dd/MM/yyyy HH:mm}", date_due) + ")";
                 }
             }
             return todoString;

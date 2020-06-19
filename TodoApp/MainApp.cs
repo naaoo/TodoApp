@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TodoAppAdd;
 using TodoData;
 using TodoLogic;
 
@@ -14,26 +15,17 @@ namespace TodoApp
 {
     public partial class MainApp : Form
     {
-        static TodoController controller = new TodoController();
+        TodoController controller = TodoController.GetInstance();
+        
         public MainApp()
         {
-            TodoController controller = new TodoController();
             InitializeComponent();
             FillBoxes();
-            
-            
-            /*
-            TodoEntities entities = new TodoEntities();
-            Todo myTodo = new Todo() { text = "Fenster putzen", done = false };
-            entities.todos.Add(myTodo);
-            var todo1 = entities.todos.Where(x => x.id == 6).FirstOrDefault();
-            if (todo1 != null)
-            {
-                entities.todos.Remove(todo1);
-                entities.SaveChanges();
-            }
-            */
-            
+            CheckDueTasks();
+            var timer = new Timer();
+            timer.Interval = 1000 * 3600;
+            timer.Tick += Timer_Tick;
+            timer.Start();
         }
 
         private void FillBoxes()
@@ -51,6 +43,33 @@ namespace TodoApp
                 FillBoxes();
                 CBDone.Checked = false;
             }
+        }
+
+        private void btnAdd_MouseClick(object sender, MouseEventArgs e)
+        {
+            TodoAdd formAdd = new TodoAdd();
+            formAdd.Show();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            CheckDueTasks();
+        }
+
+        private void CheckDueTasks()
+        {
+            var due = controller.CheckDueTasks();
+            if (due)
+            {
+                CloseTodos.CloseTodos formCloseTasks = new CloseTodos.CloseTodos();
+                formCloseTasks.Show();
+            }
+
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            FillBoxes();
         }
     }
 }

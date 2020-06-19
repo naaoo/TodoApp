@@ -91,6 +91,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CloseTodos\CloseTodos.csproj">
+      <Project>{9beba073-ceeb-4666-955e-fa700e3a61d9}</Project>
+      <Name>CloseTodos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TodoAppAdd\TodoAppAdd.csproj">
       <Project>{f65123c6-5f40-4d1d-9cb9-8111a0e5083b}</Project>
       <Name>TodoAppAdd</Name>
