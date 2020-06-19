@@ -15,10 +15,16 @@ namespace TodoAppAdd
     public partial class TodoAdd : Form
     {
         TodoController controller = TodoController.GetInstance();
-
+        Action refreshParentForm;
+        
+        public TodoAdd(Action action)
+        {
+            InitializeComponent();
+            refreshParentForm = action;
+        }
         public TodoAdd()
         {
-            
+
             InitializeComponent();
         }
 
@@ -37,6 +43,7 @@ namespace TodoAppAdd
             cbAddDate.Checked = false;
             rtBox.Text = "";
             controller.todoEnt.SaveChanges();
+            refreshParentForm.Invoke();
 
         }
     }

@@ -47,7 +47,7 @@ namespace TodoApp
 
         private void btnAdd_MouseClick(object sender, MouseEventArgs e)
         {
-            TodoAdd formAdd = new TodoAdd();
+            TodoAdd formAdd = new TodoAdd(FillBoxes);
             formAdd.Show();
         }
 
