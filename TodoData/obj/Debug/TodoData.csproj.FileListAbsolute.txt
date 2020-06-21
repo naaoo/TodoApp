@@ -10,3 +10,15 @@ C:\Users\DCV\C#-Repos\TodoApp\TodoData\obj\Debug\TodoData.csproj.CopyComplete
 C:\Users\DCV\C#-Repos\TodoApp\TodoData\obj\Debug\TodoData.dll
 C:\Users\DCV\C#-Repos\TodoApp\TodoData\obj\Debug\TodoData.pdb
 C:\Users\DCV\C#-Repos\ToDoApp\TodoData\obj\Debug\TodoData.csprojAssemblyReference.cache
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\TodoData.dll.config
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\TodoData.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\TodoData.pdb
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\EntityFramework.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\EntityFramework.xml
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Debug\TodoData.csprojAssemblyReference.cache
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Debug\TodoData.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Debug\TodoData.csproj.CopyComplete
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Debug\TodoData.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Debug\TodoData.pdb

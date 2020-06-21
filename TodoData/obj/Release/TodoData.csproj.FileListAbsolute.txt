@@ -1,0 +1,11 @@
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\TodoData.dll.config
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\TodoData.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\TodoData.pdb
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\EntityFramework.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\EntityFramework.xml
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Release\TodoData.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Release\TodoData.csproj.CopyComplete
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Release\TodoData.dll
+C:\Users\David\Documents\nao\C-Sharp-Practice\TodoApp\TodoData\obj\Release\TodoData.pdb
