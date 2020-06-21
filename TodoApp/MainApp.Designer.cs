@@ -34,35 +34,35 @@
             this.LBoxActive = new System.Windows.Forms.ListBox();
             this.LBoxDone = new System.Windows.Forms.ListBox();
             this.CBDone = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblActiveTasks
             // 
             this.lblActiveTasks.AutoSize = true;
             this.lblActiveTasks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActiveTasks.Location = new System.Drawing.Point(155, 17);
+            this.lblActiveTasks.Location = new System.Drawing.Point(174, 21);
             this.lblActiveTasks.Name = "lblActiveTasks";
-            this.lblActiveTasks.Size = new System.Drawing.Size(117, 25);
+            this.lblActiveTasks.Size = new System.Drawing.Size(148, 29);
             this.lblActiveTasks.TabIndex = 1;
-            this.lblActiveTasks.Text = "Active tasks";
+            this.lblActiveTasks.Text = "Active Tasks";
             // 
             // lblDoneTasks
             // 
             this.lblDoneTasks.AutoSize = true;
             this.lblDoneTasks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDoneTasks.Location = new System.Drawing.Point(131, 374);
+            this.lblDoneTasks.Location = new System.Drawing.Point(147, 468);
             this.lblDoneTasks.Name = "lblDoneTasks";
-            this.lblDoneTasks.Size = new System.Drawing.Size(145, 25);
+            this.lblDoneTasks.Size = new System.Drawing.Size(177, 29);
             this.lblDoneTasks.TabIndex = 3;
             this.lblDoneTasks.Text = "Finished Tasks";
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(25, 631);
+            this.btnAdd.Location = new System.Drawing.Point(28, 789);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(157, 50);
+            this.btnAdd.Size = new System.Drawing.Size(177, 62);
             this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "Add new Todo";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -72,57 +72,49 @@
             // 
             this.LBoxActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBoxActive.FormattingEnabled = true;
-            this.LBoxActive.ItemHeight = 20;
-            this.LBoxActive.Location = new System.Drawing.Point(25, 57);
+            this.LBoxActive.ItemHeight = 25;
+            this.LBoxActive.Location = new System.Drawing.Point(28, 71);
+            this.LBoxActive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.LBoxActive.Name = "LBoxActive";
-            this.LBoxActive.Size = new System.Drawing.Size(370, 244);
+            this.LBoxActive.Size = new System.Drawing.Size(416, 304);
             this.LBoxActive.TabIndex = 7;
             // 
             // LBoxDone
             // 
             this.LBoxDone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBoxDone.FormattingEnabled = true;
-            this.LBoxDone.ItemHeight = 20;
-            this.LBoxDone.Location = new System.Drawing.Point(25, 412);
+            this.LBoxDone.ItemHeight = 25;
+            this.LBoxDone.Location = new System.Drawing.Point(28, 515);
+            this.LBoxDone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.LBoxDone.Name = "LBoxDone";
-            this.LBoxDone.Size = new System.Drawing.Size(370, 184);
+            this.LBoxDone.Size = new System.Drawing.Size(416, 229);
             this.LBoxDone.TabIndex = 8;
             // 
             // CBDone
             // 
             this.CBDone.AutoSize = true;
             this.CBDone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CBDone.Location = new System.Drawing.Point(36, 316);
+            this.CBDone.Location = new System.Drawing.Point(40, 395);
+            this.CBDone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CBDone.Name = "CBDone";
-            this.CBDone.Size = new System.Drawing.Size(132, 24);
+            this.CBDone.Size = new System.Drawing.Size(168, 29);
             this.CBDone.TabIndex = 5;
             this.CBDone.Text = "mark as done";
             this.CBDone.UseVisualStyleBackColor = true;
             this.CBDone.Click += new System.EventHandler(this.CBDone_Click);
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(238, 631);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 50);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Refresh";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
             // MainApp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 693);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(470, 866);
             this.Controls.Add(this.LBoxDone);
             this.Controls.Add(this.LBoxActive);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.CBDone);
             this.Controls.Add(this.lblDoneTasks);
             this.Controls.Add(this.lblActiveTasks);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainApp";
             this.Text = "MyToDos";
             this.ResumeLayout(false);
@@ -137,7 +129,6 @@
         private System.Windows.Forms.ListBox LBoxActive;
         private System.Windows.Forms.ListBox LBoxDone;
         private System.Windows.Forms.CheckBox CBDone;
-        private System.Windows.Forms.Button button1;
     }
 }
 
