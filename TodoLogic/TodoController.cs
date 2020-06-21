@@ -245,6 +245,8 @@ namespace TodoLogic
         /// </summary>
         public void SaveTodosToCSV(string path)
         {
+            FileInfo fileInfo = new FileInfo(path);
+            fileInfo.IsReadOnly = false;
             var exportStrings = new List<string>();
             foreach (var todo in myTodos)
             {
